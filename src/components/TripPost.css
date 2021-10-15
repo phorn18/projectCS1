@@ -1,0 +1,40 @@
+.travel-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    background-color: #a0a1a1;
+}
+.travel-bg {
+    background-color: rgba(173, 170, 170, 0.817);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.travel-content {
+    max-width: 580px;
+    position: relative;
+}
+.travel-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 150px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.travel-content h3 {
+    color: white;
+    text-align: center;
+}
+.travel-content p {
+    color: rgb(0, 0, 0);
+    text-align: initial;
+}

@@ -1,0 +1,14 @@
+.app-header {
+    border-bottom: 5px solid rgb(83, 82, 82);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items:center;
+}
+.app-header p{
+    font-size: 36px;
+}
+.app-header{
+    background-color: aquamarine;
+}
+
